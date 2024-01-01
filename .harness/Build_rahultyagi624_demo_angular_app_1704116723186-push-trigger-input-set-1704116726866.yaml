@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_rahultyagi624_demo_angular_app_1704116723186-push-trigger-input-set
+  identifier: Build_rahultyagi624_demo_angular_app_1704116723186pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: new_demo3
+  pipeline:
+    identifier: Build_rahultyagi624_demo_angular_app_1704116723186
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
