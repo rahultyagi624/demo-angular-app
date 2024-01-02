@@ -28,7 +28,8 @@ pipeline:
                   identifier: npmtest
                   name: npm_test
                   spec:
-                    command: npm run test
+                    shell: Sh
+                    command: npm test
                   timeout: ""
                   type: Run
               - step:
@@ -57,9 +58,9 @@ pipeline:
                   timeout: ""
                   type: Plugin
           platform:
-            arch: Amd64
             os: Linux
+            arch: Amd64
           runtime:
-            spec: {}
             type: Cloud
+            spec: {}
         type: CI
