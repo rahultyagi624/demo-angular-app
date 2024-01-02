@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_rahultyagi624_demo_angular_app_1704172156808-pr-trigger-input-set
+  identifier: Build_rahultyagi624_demo_angular_app_1704172156808prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: new_demo3
+  pipeline:
+    identifier: Build_rahultyagi624_demo_angular_app_1704172156808
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
