@@ -44,6 +44,16 @@ pipeline:
                       tags: latest
                   timeout: ""
                   type: Plugin
+              - step:
+                  type: BuildAndPushDockerRegistry
+                  name: BuildAndPushDockerRegistry_1
+                  identifier: BuildAndPushDockerRegistry_1
+                  spec:
+                    connectorRef: account.harnessImage
+                    repo: repoforang
+                    tags:
+                      - latest
+                    dockerfile: Dockerfile
           platform:
             os: Linux
             arch: Amd64
