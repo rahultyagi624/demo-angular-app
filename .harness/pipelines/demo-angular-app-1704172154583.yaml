@@ -49,7 +49,7 @@ pipeline:
                   name: BuildAndPushDockerRegistry_1
                   identifier: BuildAndPushDockerRegistry_1
                   spec:
-                    connectorRef: account.harnessImage
+                    connectorRef: connector_new
                     repo: rahultyagi624/js-demo
                     tags:
                       - <+pipeline.sequenceId>
