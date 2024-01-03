@@ -52,7 +52,7 @@ pipeline:
                     connectorRef: account.harnessImage
                     repo: rahultyagi624/js-demo
                     tags:
-                      - latest
+                      - <+pipeline.sequenceId>
                     dockerfile: Dockerfile
           platform:
             os: Linux
