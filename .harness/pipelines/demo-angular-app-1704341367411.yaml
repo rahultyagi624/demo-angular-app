@@ -24,7 +24,7 @@ pipeline:
                   spec:
                     shell: Sh
                     command: |
-                      cd root/
+                      ls 
           platform:
             os: Linux
             arch: Amd64
