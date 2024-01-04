@@ -24,8 +24,7 @@ pipeline:
                   spec:
                     shell: Bash
                     command: |
-                      ls 
-                      cd harness/
+                      git clone 'https://github.com/Cager2808/sample-harness' ls -alrt
           platform:
             os: Linux
             arch: Amd64
