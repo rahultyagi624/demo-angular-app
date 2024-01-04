@@ -25,7 +25,7 @@ pipeline:
                     shell: Bash
                     command: |
                       ls 
-                      cd harness
+                      cd harness/
           platform:
             os: Linux
             arch: Amd64
